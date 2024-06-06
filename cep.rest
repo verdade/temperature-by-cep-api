@@ -1,0 +1,6 @@
+POST http://localhost:8081/temperature
+Content-Type: application/json
+
+{
+  "cep": "01153000"
+}
