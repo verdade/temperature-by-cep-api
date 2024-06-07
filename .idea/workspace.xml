@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f03a13d-284a-4587-8a72-4f61b0e45313" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/temperature-by-cep-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cep.rest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage.out" beforeDir="false" afterPath="$PROJECT_DIR$/coverage.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-files/docker-entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-files/otel/otel-collector.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/entity/temperature.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/entity/temperature.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/infra/web/handler/temperature.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/infra/web/handler/temperature.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/infra/web/handler/temperature_proxy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/infra/web/handler/temperature_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/infra/web/handler/temperature_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/infra/web/presenter/temperature.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/infra/web/webserver/webserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/infra/web/webserver/webserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/usecase/temperature/mock/find_temperature.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/usecase/temperature/mock/find_temperature.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/usecase/temperature/proxy_temperature.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/opentelemetry/otel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/requester/resty/resty.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/requester/resty/resty.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../sdks/go1.21.4.linux-amd64/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2hTjUULoxH6GndE8ZytYLO3xbFb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20240606_0001",
+    "git-widget-placeholder": "teste",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/ricardo/projects/golang_projects/temperature-by-cep-api/cmd",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/configs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="HTTP Request.cep | #1">
+    <configuration name="go build github.com/verdade/temperature-by-cep-api/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="temperature-by-cep-api" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/verdade/temperature-by-cep-api/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/server.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cep | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/cep.rest" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.cep | #1" />
+        <item itemvalue="Go Build.go build github.com/verdade/temperature-by-cep-api/cmd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/opentelemetry/otel.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/server.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
