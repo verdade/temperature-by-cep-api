@@ -1,0 +1,3 @@
+GET https://teste-stld6yh5tq-uc.a.run.app/temperature?cep=24230126
+Content-Type: application/json
+

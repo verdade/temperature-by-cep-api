@@ -2,7 +2,7 @@ run:
 	go run cmd/server.go
 
 docker-build-image:
-	docker build -t geovanedeveloper/temperature-api:latest -f Dockerfile.prod .
+	docker build -t ricanalista/temperature-api:latest -f Dockerfile.prod .
 
 docker-up:
 	docker-compose up -d
@@ -11,7 +11,7 @@ open-bash:
 	docker-compose exec temperature-app bash
 
 docker-run:
-	docker run --rm -p 8080:8080 geovanedeveloper/temperature-api:latest
+	docker run --rm -p 8080:8080 ricanalista/temperature-api:latest
 
 build-mocks:
 	go install go.uber.org/mock/mockgen@latest

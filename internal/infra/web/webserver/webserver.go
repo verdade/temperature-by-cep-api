@@ -28,7 +28,7 @@ func (w *WebServer) Start() {
 	}
 
 	log.Println("Starting web server...")
-	if err := http.ListenAndServe(w.WebServerPort, &w.Router); err != nil {
+	if err := http.ListenAndServe(":8080", &w.Router); err != nil {
 		panic(err)
 	}
 }

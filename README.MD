@@ -95,8 +95,6 @@ make test-coverage
 
 Após a execução, o arquivo `coverage.html` será gerado na raiz do projeto, permitindo que você visualize detalhadamente a cobertura de testes.
 
-## Uso da API
+## Teste no CLOUD RUN
 
-A Temperature API está disponível no seguinte link: [Temperature API](https://temperature-api-mszsnkdbwq-uc.a.run.app/temperature?cep=65909001)
-
-Para utilizar, passe o CEP desejado via query params, por exemplo: `https://temperature-api-mszsnkdbwq-uc.a.run.app/temperature?cep=SEU_CEP_AQUI`.
+Para utilizar, passe o CEP desejado via query params, por exemplo: `https://teste-stld6yh5tq-uc.a.run.app/temperature?cep=24230126.

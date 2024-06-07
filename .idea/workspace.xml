@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f03a13d-284a-4587-8a72-4f61b0e45313" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cep.rest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/temperature-by-cep-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cep.rest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/.env" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage.out" beforeDir="false" afterPath="$PROJECT_DIR$/coverage.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-files/docker-entrypoint.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-files/otel/otel-collector.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/entity/temperature.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/entity/temperature.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/infra/web/handler/temperature.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/infra/web/handler/temperature.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/infra/web/handler/temperature_proxy.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/infra/web/handler/temperature_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/infra/web/handler/temperature_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/infra/web/presenter/temperature.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/infra/web/webserver/webserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/infra/web/webserver/webserver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/usecase/temperature/mock/find_temperature.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/usecase/temperature/mock/find_temperature.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/usecase/temperature/proxy_temperature.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/opentelemetry/otel.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/requester/resty/resty.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/requester/resty/resty.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +47,7 @@
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20240606_0001",
+    "com.google.cloudcode.ide_session_index": "20240606_0002",
     "git-widget-placeholder": "teste",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",

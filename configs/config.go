@@ -6,7 +6,7 @@ type Conf struct {
 	ViaCepApiUrl  string `mapstructure:"VIACEP_API_URL"`
 	WeatherApiUrl string `mapstructure:"WEATHER_API_URL"`
 	WeatherApiKey string `mapstructure:"WEATHER_API_KEY"`
-	WebServerPort string `mapstructure:"WEB_SERVER_PORT"`
+	WebServerPort string `mapstructure:"PORT"`
 }
 
 func LoadConfig(path string) (*Conf, error) {
