@@ -4,14 +4,12 @@ import (
 	"context"
 	"crypto/tls"
 	"errors"
-	"net/http"
 	"net/url"
 	"strings"
 	"time"
 
 	"github.com/go-resty/resty/v2"
 	"github.com/verdade/temperature-by-cep-api/pkg/requester"
-	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )
 
 type Sender struct {
@@ -29,7 +27,6 @@ func (s *Sender) Send(ctx context.Context, cfg requester.Configuration) (request
 
 	cli := resty.New().SetHeaders(cfg.Headers).SetHeader("Content-Type", cfg.ContetType).SetTimeout(30 * time.Second)
 	cli.SetTLSClientConfig(&tls.Config{InsecureSkipVerify: true})
-	cli.SetTransport(otelhttp.NewTransport(http.DefaultTransport))
 	if cfg.QueryParams != nil {
 		cli.SetQueryParams(cfg.QueryParams)
 	}

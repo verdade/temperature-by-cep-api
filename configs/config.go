@@ -3,19 +3,14 @@ package configs
 import "github.com/spf13/viper"
 
 type Conf struct {
-	ViaCepApiUrl   string `mapstructure:"VIACEP_API_URL"`
-	WeatherApiUrl  string `mapstructure:"WEATHER_API_URL"`
-	WeatherApiKey  string `mapstructure:"WEATHER_API_KEY"`
-	WebServerPort  string `mapstructure:"WEB_SERVER_PORT"`
-	ServerAName    string `mapstructure:"SERVER_A_NAME"`
-	ServerBName    string `mapstructure:"SERVER_B_NAME"`
-	Version        string `mapstructure:"VERSION"`
-	TemperatureUrl string `mapstructure:"TEMPERATURE_URL"`
+	ViaCepApiUrl  string `mapstructure:"VIACEP_API_URL"`
+	WeatherApiUrl string `mapstructure:"WEATHER_API_URL"`
+	WeatherApiKey string `mapstructure:"WEATHER_API_KEY"`
+	WebServerPort string `mapstructure:"WEB_SERVER_PORT"`
 }
 
-var cfg *Conf
-
 func LoadConfig(path string) (*Conf, error) {
+	var cfg *Conf
 
 	viper.SetConfigFile(".env")
 	viper.SetConfigType("env")
@@ -33,8 +28,4 @@ func LoadConfig(path string) (*Conf, error) {
 	}
 
 	return cfg, err
-}
-
-func GetEnvVars() *Conf {
-	return cfg
 }
