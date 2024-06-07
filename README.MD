@@ -22,8 +22,8 @@ Siga os passos abaixo para configurar o ambiente do projeto.
 Primeiro, clone o repositório da Temperature API para a sua máquina local:
 
 ```bash
-git clone https://github.com/verdade/temperature-api
-cd temperature-api
+git clone https://github.com/verdade/temperature-by-cep-api
+cd temperature-by-cep-api
 ```
 
 ### Construindo a Imagem Docker
