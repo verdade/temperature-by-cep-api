@@ -7,11 +7,8 @@ docker-build-image:
 docker-up:
 	docker-compose up -d
 
-open-bash: 
-	docker-compose exec temperature-app bash
-
 docker-run:
-	docker run --rm -p 8080:8080 ricanalista/temperature-api:latest
+	docker run --rm -p 8080:8082 ricanalista/temperature-api:latest
 
 build-mocks:
 	go install go.uber.org/mock/mockgen@latest
