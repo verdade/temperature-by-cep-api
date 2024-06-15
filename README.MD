@@ -5,26 +5,8 @@
 
 Bem-vindo ao repositório da Temperature API, uma solução simples e eficiente para gerenciar e acessar dados de temperatura. Este README serve como um guia para configurar e utilizar a aplicação.
 
-## Pré-requisitos
-
-Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
-
-- Docker
-- Make
-- Git (para clonar o repositório)
 
 ## Configuração
-
-Siga os passos abaixo para configurar o ambiente do projeto.
-
-### Clonando o Repositório
-
-Primeiro, clone o repositório da Temperature API para a sua máquina local:
-
-```bash
-git clone https://github.com/verdade/temperature-by-cep-api
-cd temperature-by-cep-api
-```
 
 ### Construindo a Imagem Docker
 
@@ -40,17 +22,7 @@ Este comando irá construir uma imagem Docker com todas as dependências necess�
 
 Para subir o projeto, você tem duas opções:
 
-1. **Usando o Docker Compose:**
-
-   Execute o comando abaixo para subir o projeto com o Docker Compose. Isso iniciará todos os serviços necessários definidos no `docker-compose.yml`.
-
-   ```bash
-   make docker-up
-   ```
-
-2. **Rodando Diretamente o Container:**
-
-   Se preferir, você pode executar diretamente o container Docker:
+1**Rodando Diretamente o Container:**
 
    ```bash
    make docker-run

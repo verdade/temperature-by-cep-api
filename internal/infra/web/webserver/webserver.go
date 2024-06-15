@@ -7,28 +7,28 @@ import (
 
 type WebServer struct {
 	Router        http.ServeMux
-	Hanlders      map[string]http.HandlerFunc
+	Handlers      map[string]http.HandlerFunc
 	WebServerPort string
 }
 
 func New(port string) *WebServer {
 	return &WebServer{
-		Hanlders:      make(map[string]http.HandlerFunc),
+		Handlers:      make(map[string]http.HandlerFunc),
 		WebServerPort: port,
 	}
 }
 
 func (w *WebServer) AddHandler(path string, handler http.HandlerFunc) {
-	w.Hanlders[path] = handler
+	w.Handlers[path] = handler
 }
 
 func (w *WebServer) Start() {
-	for path, handler := range w.Hanlders {
+	for path, handler := range w.Handlers {
 		w.Router.HandleFunc(path, handler)
 	}
 
 	log.Println("Starting web server...")
-	if err := http.ListenAndServe(":8080", &w.Router); err != nil {
+	if err := http.ListenAndServe(w.WebServerPort, &w.Router); err != nil {
 		panic(err)
 	}
 }

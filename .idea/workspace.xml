@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f03a13d-284a-4587-8a72-4f61b0e45313" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/temperature-by-cep-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/temperature-by-cep-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cep.rest" beforeDir="false" afterPath="$PROJECT_DIR$/cep.rest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/infra/web/webserver/webserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/infra/web/webserver/webserver.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../sdks/go1.21.4.linux-amd64/go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../sdks/go1.21.4.linux-amd64/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -39,11 +42,11 @@
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.google.cloudcode.ide_session_index": "20240607_0002",
+    "com.google.cloudcode.ide_session_index": "20240615_0000",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/ricardo/projects/golang_projects/temperature-by-cep-api/cmd",
+    "last_opened_file_path": "/home/ricardo/projects/golang_projects/temp/temperature-by-cep-api",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -58,7 +61,7 @@
       <recent name="$PROJECT_DIR$/configs" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.cep | #1">
+  <component name="RunManager" selected="HTTP Request.cep | #2">
     <configuration name="go build github.com/verdade/temperature-by-cep-api/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="temperature-by-cep-api" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,6 +74,9 @@
     <configuration name="cep | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/cep.rest" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="cep | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/cep.rest" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -79,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.cep | #2" />
         <item itemvalue="HTTP Request.cep | #1" />
         <item itemvalue="Go Build.go build github.com/verdade/temperature-by-cep-api/cmd" />
       </list>

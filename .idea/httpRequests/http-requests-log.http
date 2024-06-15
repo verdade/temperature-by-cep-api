@@ -1,3 +1,13 @@
+GET http://localhost:8080/temperature?cep=24230126
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-15T104010.200.json
+
+###
+
 GET https://teste-stld6yh5tq-uc.a.run.app/temperature?cep=24230126
 Content-Type: application/json
 Connection: Keep-Alive
